@@ -10,16 +10,6 @@ This is a basic API skeleton written in JavaScript ES2015. Very useful to buildi
 
 This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests.
 
-## Advertise for Job/Work Contract
-
-I am open for a good job or work contract. You can contact me directly on my email ([maitraysuthar@gmail.com](mailto:maitraysuthar@gmail.com "maitraysuthar@gmail.com")) or you can download my CV from my personal [website](https://maitraysuthar.github.io/portfolio/).
-
-## Buy me a Coffee
-
-If you consider my project as helpful stuff, You can appreciate me or my hard work and time spent to create this helpful structure with buying me a coffee.
-
-<a href="https://www.buymeacoffee.com/36GgOoQ2f" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
 ## Features
 
 - Basic Authentication (Register/Login with hashed password)
@@ -49,7 +39,7 @@ If you consider my project as helpful stuff, You can appreciate me or my hard wo
 1.  Clone the project from github. Change "myproject" to your project name.
 
 ```bash
-git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproject
+git clone https://github.com/EliteDevSolution/iouu-rest-api.git ./ioou
 ```
 
 ### Using manual download ZIP
@@ -60,7 +50,7 @@ git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproje
 ### Install npm dependencies after installing (Git or manual download)
 
 ```bash
-cd myproject
+cd ioou
 npm install
 ```
 
@@ -73,41 +63,6 @@ npm install
     ```
 3.  The file `.env` is already ignored, so you never commit your credentials.
 4.  Change the values of the file to your environment. Helpful comments added to `.env.example` file to understand the constants.
-
-## Project structure
-
-```sh
-.
-├── app.js
-├── package.json
-├── bin
-│   └── www
-├── controllers
-│   ├── AuthController.js
-│   └── BookController.js
-├── models
-│   ├── BookModel.js
-│   └── UserModel.js
-├── routes
-│   ├── api.js
-│   ├── auth.js
-│   └── book.js
-├── middlewares
-│   ├── jwt.js
-├── helpers
-│   ├── apiResponse.js
-│   ├── constants.js
-│   ├── mailer.js
-│   └── utility.js
-├── test
-│   ├── testConfig.js
-│   ├── auth.js
-│   └── book.js
-└── public
-    ├── index.html
-    └── stylesheets
-        └── style.css
-```
 
 ## How to run
 
